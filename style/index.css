@@ -29,7 +29,7 @@ body {
     z-index: 1000;
 }
 
-.header > .container {
+.header>.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +54,7 @@ body {
 }
 
 .logo i {
-    color: #db8140;
+    color: #8b0404;
 }
 
 .search-bar {
@@ -87,7 +87,7 @@ body {
 }
 
 .search-bar button:hover {
-    background-color: #db8140;
+    background-color: #8b0404;
 }
 
 .nav {
@@ -110,7 +110,7 @@ body {
 
 .nav a:hover {
     color: #1b191c;
-    background-color: #db8140;
+    background-color: #d71748;
 }
 
 .cart-icon {
@@ -144,7 +144,7 @@ body {
 
 /* Categorías - Naranja vibrante */
 .categories {
-    background-color: #db8140;
+    background-color: #8b0404;
     padding: 12px 0;
 }
 
@@ -190,12 +190,11 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1600&q=80');
+    background: url('https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');
     background-size: cover;
     background-position: center;
     opacity: 0.2;
-}
-
+}  
 .hero-content {
     position: relative;
     z-index: 1;
@@ -220,7 +219,7 @@ body {
 
 .btn-primary {
     display: inline-block;
-    background: linear-gradient(to right, #d71748, #db8140);
+    background: linear-gradient(to right, #d71748, #8b0404);
     color: white;
     padding: 16px 40px;
     border-radius: 30px;
@@ -238,7 +237,7 @@ body {
 .btn-primary:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(215, 23, 72, 0.6);
-    background: linear-gradient(to right, #db8140, #d71748);
+    background: linear-gradient(to right, #8b0404, #d71748);
 }
 
 /* Sección de productos */
@@ -257,7 +256,7 @@ body {
     display: block;
     width: 100px;
     height: 4px;
-    background: linear-gradient(to right, #550d9c, #db8140);
+    background: linear-gradient(to right, #550d9c, #8b0404);
     margin: 15px auto;
     border-radius: 2px;
 }
@@ -382,7 +381,7 @@ body {
 
 /* Banner promocional - Rojo vibrante */
 .promo-banner {
-    background: linear-gradient(135deg, #d71748 0%, #db8140 100%);
+    background: linear-gradient(135deg, #d71748 0%, #8b0404 100%);
     color: white;
     padding: 80px 0;
     margin: 80px 0;
@@ -470,7 +469,7 @@ body {
 
 .category-card:hover .category-icon {
     transform: scale(1.2);
-    color: #db8140;
+    color: #8b0404;
 }
 
 .category-card h3 {
@@ -501,7 +500,8 @@ body {
     margin-bottom: 50px;
 }
 
-.footer-col h3, .footer-col h4 {
+.footer-col h3,
+.footer-col h4 {
     font-family: 'Poppins', sans-serif;
     margin-bottom: 25px;
     color: white;
@@ -509,7 +509,7 @@ body {
 
 .footer-col h3 {
     font-size: 28px;
-    color: #db8140;
+    color: #8b0404;
 }
 
 .footer-col h4 {
@@ -526,7 +526,7 @@ body {
     bottom: 0;
     width: 50px;
     height: 3px;
-    background-color: #db8140;
+    background-color: #8b0404;
 }
 
 .footer-col p {
@@ -556,12 +556,12 @@ body {
 }
 
 .footer-col ul li a:hover {
-    color: #db8140;
+    color: #8b0404;
     transform: translateX(5px);
 }
 
 .footer-col ul li i {
-    color: #db8140;
+    color: #8b0404;
     width: 20px;
 }
 
@@ -585,7 +585,7 @@ body {
 }
 
 .social-icons a:hover {
-    background-color: #db8140;
+    background-color: #8b0404;
     transform: translateY(-5px) scale(1.1);
     box-shadow: 0 5px 15px rgba(219, 129, 64, 0.4);
 }
@@ -603,11 +603,11 @@ body {
     .hero-content h1 {
         font-size: 42px;
     }
-    
+
     .products-grid {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
-    
+
     .section-title {
         font-size: 32px;
     }
@@ -620,15 +620,15 @@ body {
         max-width: 100%;
         margin: 15px 0 0 0;
     }
-    
-    .header > .container {
+
+    .header>.container {
         flex-wrap: wrap;
     }
-    
+
     .mobile-menu-btn {
         display: block;
     }
-    
+
     .nav {
         display: none;
         width: 100%;
@@ -639,31 +639,31 @@ body {
         padding-top: 20px;
         border-top: 1px solid rgba(255, 255, 255, 0.2);
     }
-    
+
     .nav.show {
         display: flex;
     }
-    
+
     .hero {
         padding: 80px 20px;
     }
-    
+
     .hero-content h1 {
         font-size: 32px;
     }
-    
+
     .hero-content p {
         font-size: 18px;
     }
-    
+
     .promo-content h2 {
         font-size: 32px;
     }
-    
+
     .categories .container {
         gap: 20px;
     }
-    
+
     .category-link {
         font-size: 14px;
         padding: 5px 12px;
@@ -674,23 +674,24 @@ body {
     .products-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .categories-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
-    
+
     .footer-grid {
         grid-template-columns: 1fr;
         gap: 40px;
     }
-    
-    .btn-primary, .btn-secondary {
+
+    .btn-primary,
+    .btn-secondary {
         padding: 14px 30px;
         font-size: 15px;
     }
-    
+
     .logo {
         font-size: 24px;
     }
-}
+    }
