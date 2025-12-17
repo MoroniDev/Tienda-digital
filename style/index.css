@@ -457,7 +457,7 @@ body {
 .category-card:hover {
     transform: translateY(-10px) scale(1.02);
     box-shadow: 0 15px 35px rgba(85, 13, 156, 0.2);
-    border-color: #550d9c;
+    border-color: #8b0404;
 }
 
 .category-icon {
@@ -695,3 +695,4 @@ body {
         font-size: 24px;
     }
     }
+
